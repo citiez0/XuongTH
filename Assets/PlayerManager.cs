@@ -95,6 +95,7 @@ public class PlayerManager : MonoBehaviour
         if (collision.CompareTag("Enemy") || collision.CompareTag("Trap"))
         {
             health--;
+            Debug.Log("Current health: " + health);
 
             if (health <= 0)
             {
