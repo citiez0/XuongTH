@@ -8,7 +8,7 @@ public class PlayerManager : MonoBehaviour
     //Sau đó kiểm tra những phần còn thiếu khác để script có thể hoạt động bình thường
     
     public float moveSpeed;      
-    public float jumpForce;   
+    public int jumpForce;   
 
     [Header("Player Stats")]
     public int health = 3;          
